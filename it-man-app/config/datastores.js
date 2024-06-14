@@ -1,6 +1,10 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
+/* eslint-disable linebreak-style */
 /**
  * Datastores
  * (sails.config.datastores)
+ // eslint-disable-next-line linebreak-style
  *
  * A set of datastore configurations which tell Sails where to fetch or save
  * data when you execute built-in model methods like `.find()` and `.create()`.
@@ -48,8 +52,8 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    adapter: 'sails-postgresql',
-    url: 'postgres://itman:X3DIZhYNKJYq2gczIJ1qi8uCzQqFGm2V@dpg-cpdq0tfsc6pc7395nrv0-a.oregon-postgres.render.com/dbitman_6mxv',
+    adapter: "sails-postgresql",
+    url: "postgres://itman_user:WDl0zJofb0wRqT4iqthRsqYvzuzi0c1U@dpg-cplph1qju9rs73fiop90-a.oregon-postgres.render.com/itman",
     ssl: true,
   },
 
